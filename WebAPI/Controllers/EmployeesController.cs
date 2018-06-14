@@ -16,7 +16,7 @@ namespace WebAPI.Controllers
     {
         private Models.DbModel db = new Models.DbModel();
 
-        // GET: api/Employees
+       
         public IQueryable<tblEmployee> GettblEmployees()
         {
             return db.tblEmployees;
