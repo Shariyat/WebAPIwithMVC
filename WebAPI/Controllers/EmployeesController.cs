@@ -22,7 +22,7 @@ namespace WebAPI.Controllers
             return db.tblEmployees;
         }
 
-        // GET: api/Employees/5
+        ///// GET: api/Employees/5
         [ResponseType(typeof(tblEmployee))]
         public IHttpActionResult GettblEmployee(int id)
         {
